@@ -1,10 +1,12 @@
 #include <stdio.h>
 /**
-  *main-Entry point of the program
-  *
-  *This program prints all possible combinations of :
-  *single digit numbers separated by ', '
-  */
+ *main-Entry point of the program
+ *
+ *This program prints all possible combinations of :
+ *single digit numbers separated by ', '
+ *
+ *Return:Always 0 (success)
+ */
 int main(void)
 {
 int x;
