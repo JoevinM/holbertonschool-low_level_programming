@@ -2,12 +2,11 @@
 #include <stdio.h>
 
 /**
- * _islower -Entry point of the program
- *@c is the input for comparison
- *This program checks for lower alphabet character,
- *and finish by a new line.
- *Returns 1 if c is lowercase.
- *Returns 0 itherwise.
+ * _islower - print the alphabet
+ *
+ * @c: The character to be checked.
+ *
+ * Return: Always 0.
  */
 
 int _islower(int c)
