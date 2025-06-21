@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _islower - print the alphabet
+ * _islower - Check if the character is a letter lowercase.
  *
  * @c: The character to be checked.
  *
- * Return: Always 0.
+ * Return: 1 if the character is a letter lowercase and 0 otherwise.
  */
 
 int _islower(int c)
