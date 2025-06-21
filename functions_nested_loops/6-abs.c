@@ -8,15 +8,11 @@
  * Return: compute_value
  */
 
-long _abs(long x)
+int _abs(int x)
 
 {
 	if (x < 0)
-		x = x + (x * -2);
-	if (x > 0)
-		x = x;
-	else
-		x = 0;
+		x = x * -1;
 
 	return (x);
 }
