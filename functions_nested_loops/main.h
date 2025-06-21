@@ -5,4 +5,4 @@ int _islower(int c);
 int add(int, int);
 int _isalpha(int c);
 int print_sign(int n);
-int _abs(int);
+long _abs(long);

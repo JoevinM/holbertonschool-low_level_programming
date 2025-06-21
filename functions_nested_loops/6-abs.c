@@ -8,7 +8,7 @@
  * Return: compute_value
  */
 
-int _abs(int x)
+long _abs(long x)
 
 {
 	if (x < 0)
