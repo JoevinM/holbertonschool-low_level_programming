@@ -11,11 +11,12 @@
 void puts2(char *str)
 
 {
-	long compteur = 0;
+	int compteur = 0;
 
-	for (; str[compteur] != '\0'; compteur += 2)
+	for (; str[compteur] != '\0'; compteur++)
 	{
-		_putchar(str[compteur]);
+		if (compteur % 2 == 0)
+			_putchar(str[compteur]);
 	}
 	_putchar('\n');
 }
