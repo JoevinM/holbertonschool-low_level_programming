@@ -13,6 +13,7 @@ char *_strcat(char *dest, char *src)
 {
 	int compteurDestination = 0;
 	int compteurSource = 0;
+
 	while (dest[compteurDestination] != '\0')
 	{
 		compteurDestination++;
@@ -23,7 +24,6 @@ char *_strcat(char *dest, char *src)
 		compteurDestination++;
 		compteurSource++;
 	}
-	
 	dest[compteurDestination] = '\0';
 
 
