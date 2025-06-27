@@ -18,10 +18,10 @@ void puts_half(char *str)
 	for (; str[compteur] != '\0'; compteur++)
 	{
 	}
-	if ( compteur % 2 == 0 )
+	if (compteur % 2 == 0)
 		moitier = compteur / 2;
-	else 
-		moitier = (compteur +1) / 2;
+	else
+		moitier = (compteur + 1) / 2;
 	for (; str[moitier] != '\0'; moitier++)
 	{
 	_putchar(str[moitier]);
