@@ -20,7 +20,9 @@ char *cap_string(char *s)
 	{
 		for (compteur2 = 0; separateurs[compteur2] != '\0'; compteur2++)
 		{
-			if (s[compteur1] == separateurs[compteur2] && (s[compteur1 + 1] >= 'a' && s[compteur1 + 1] <= 'z'))
+			if (s[compteur1] == separateurs[compteur2] &&
+					(s[compteur1 + 1] >= 'a' &&
+					 s[compteur1 + 1] <= 'z'))
 			{
 				s[compteur1 + 1] -= 32;
 			}
