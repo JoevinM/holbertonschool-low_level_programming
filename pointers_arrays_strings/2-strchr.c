@@ -10,6 +10,7 @@
  * or NULL if the character is not found.
  */
 
+
 char *_strchr(char *s, char c)
 {
 	int i = 0;
@@ -20,5 +21,7 @@ char *_strchr(char *s, char c)
 		return (&s[i]);
 	i++;
 	}
-	return ('\0');
+	if (c == '\0')
+		return (&s[i]);
+	return (NULL);
 }
