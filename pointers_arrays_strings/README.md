@@ -1,113 +1,131 @@
-### C - pointers, arrays and strings.
+# 🧠 C - Pointers, Arrays & Strings
 
-# 0. 98 Battery st.
+A curated collection of C functions to master the fundamentals of pointers, arrays, strings, and memory operations.
 
-A function that takes a pointer to an int as parameter and updates the value it points to to 98.
+---
 
-# 1. Don't swap horses in crossing a stream
+## 📌 Project Overview
 
-A function that swaps the values of two integers.
+This project explores the core of low-level programming in C:
 
-#2. This report, by its very length, defends itself against the risk of being read
+- Pointer manipulation  
+- String operations  
+- Array handling  
+- Custom implementation of standard library functions  
+- Deep memory understanding  
 
-A function that returns the length of a string.
+---
 
-# 3. I do not fear computers. I fear the lack of them
+## 🔧 Functions
 
-A function that prints a string, followed by a new line, to stdout.
+### 🔹 Part 1: Pointers, Arrays, and Strings (Basics)
 
-# 4. I can only go one way. I've not got a reverse gear
+- **`void reset_to_98(int *n)`**  
+  Sets the value pointed to by `n` to `98`.
 
-A function that prints a string, in reverse, followed by a new line.
+- **`void swap_int(int *a, int *b)`**  
+  Swaps the values of `a` and `b`.
 
-# 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+- **`int _strlen(char *s)`**  
+  Returns the length of a string.
 
-A function that reverses a string.
+- **`void _puts(char *str)`**  
+  Prints a string followed by a newline.
 
-# 6. Half the lies they tell about me aren't true
+- **`void print_rev(char *s)`**  
+  Prints a string in reverse.
 
-A function that prints every other character of a string, starting with the first character, followed by a new line.
+- **`void rev_string(char *s)`**  
+  Reverses a string in-place.
 
-# 7. Winning is only half of it. Having fun is the other half
+- **`void puts2(char *str)`**  
+  Prints every other character of a string.
 
-A function that prints half of a string, followed by a new line.
+- **`void puts_half(char *str)`**  
+  Prints the second half of a string.
 
-# 8. Arrays are not pointers
+- **`void print_array(int *a, int n)`**  
+  Prints `n` elements of an integer array.
 
-A function that prints n elements of an array of integers, followed by a new line.
+- **`char *_strcpy(char *dest, char *src)`**  
+  Copies the string `src` to `dest`.
 
-# 9. strcpy
+- **`int _atoi(char *s)`**  
+  Converts a string to an integer.
 
-A function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+---
 
-# 10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers
+### 🔹 Part 2: More Pointers, Arrays and Strings
 
-A function that convert a sstring to an integer.
+- **`char *_strcat(char *dest, char *src)`**  
+  Concatenates `src` to `dest`.
 
-### C - More pointers, arrays and strings.
+- **`char *_strncat(char *dest, char *src, int n)`**  
+  Concatenates up to `n` characters of `src`.
 
-# 0. strcat
+- **`char *_strncpy(char *dest, char *src, int n)`**  
+  Copies up to `n` characters from `src` to `dest`.
 
-A function that concatenates two strings.
+- **`int _strcmp(char *s1, char *s2)`**  
+  Compares two strings.
 
-# 1. strncat
+- **`void reverse_array(int *a, int n)`**  
+  Reverses an array of integers.
 
-A function that concatenates two strings.
+- **`char *string_toupper(char *s)`**  
+  Converts all lowercase letters to uppercase.
 
-# 2. strncpy
+- **`char *cap_string(char *s)`**  
+  Capitalizes all words in a string.
 
-A function that copies a string.
+- **`char *leet(char *s)`**  
+  Encodes a string into 1337 speak.
 
-# 3. strcmp
+---
 
-A function that compares two strings.
+### 🔹 Part 3: Even More Pointers and Memory
 
-# 4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy
+- **`char *_memset(char *s, char b, unsigned int n)`**  
+  Fills memory with a constant byte.
 
-A function that reverses the content of an array of integers.
+- **`char *_memcpy(char *dest, char *src, unsigned int n)`**  
+  Copies memory area.
 
-# 5. Always look up
+- **`char *_strchr(char *s, char c)`**  
+  Locates a character in a string.
 
-A function that changes all lowercase letters of a string to uppercase.
+- **`unsigned int _strspn(char *s, char *accept)`**  
+  Gets length of a prefix substring.
 
-# 6. Expect the best. Prepare for the worst. Capitalize on what comes
+- **`char *_strpbrk(char *s, char *accept)`**  
+  Searches a string for any of a set of bytes.
 
-A function that capitalizes all words of a string.
+- **`char *_strstr(char *haystack, char *needle)`**  
+  Finds the first occurrence of `needle` in `haystack`.
 
-# 7. Mozart composed his music not for the elite, but for everybody
+- **`void print_chessboard(char (*a)[8])`**  
+  Prints an 8x8 chessboard.
 
-A function that encodes a string into 1337.
+- **`void print_diagsums(int *a, int size)`**  
+  Prints the sum of the diagonals of a square matrix.
 
-### C - Even more pointers, arrays and strings.
+---
 
-# 0. memset
+## ⚙️ Compilation & Execution
 
-A function that fills memory with a constant byte.
+```bash
+gcc -Wall -Wextra -pedantic -std=c99 -o main main.c *.c
+./main
 
-# 1. memcpy
 
-A function that copies memory area.
+✅ Skills You Will Gain
+📌 Memory and pointer handling
 
-# 2. strchr
+📌 String and array operations without standard libs
 
-A function that locates a character in a string.
+📌 Manual implementation of common functions
 
-# 3. strspn
+📌 Understanding of 1D & 2D memory layouts
 
-A function that gets the length of a prefix substring.
+📌 Logic building at a low level
 
-# 4. strpbrk
-
-A function that searches a string for any of a set of bytes.
-
-# 5. strstr
-
-A function that locates a substring.
-
-# 6. Chess is mental torture
-
-A function that prints the chessboard.
-
-# 7. The line of life is a ragged diagonal between duty and desire
-
-A function that prints the sum of the two diagonals of a square matrix of integers.
