@@ -19,5 +19,5 @@ void print_diagsums(int *a, int size)
 		somme1 += a[i * size + i];
 		somme2 += a[i * size + (size - 1 - i)];
 	}
-	printf("%d, %d \n", somme1, somme2);
+	printf("%d, %d\n", somme1, somme2);
 }
