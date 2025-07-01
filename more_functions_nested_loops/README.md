@@ -1,44 +1,73 @@
-# 0. isupper
+# 🚀 C - More Functions & Basic Loops
 
-A function that checks for uppercase character.
+A collection of beginner C functions focusing on character checks, arithmetic, and printing patterns.
 
-# 1. isdigit
+---
 
-A function that checks for a digit (0 through 9).
+## 🔧 Programs & Functions
 
-# 2. Collaboration is multiplication
+### 🔹 0. `isupper`
+- **Goal:** Check for an uppercase character.
+- **Function:** `int _isupper(int c);`
 
-A function that multiplies two integers.
+---
 
-# 3. The numbers speak for themselves
+### 🔹 1. `isdigit`
+- **Goal:** Check for a digit (`0` through `9`).
+- **Function:** `int _isdigit(int c);`
 
-A function that prints the numbers, from 0 to 9, followed by a new line.
+---
 
-# 4. I believe in numbers and signs
+### 🔹 2. Collaboration is multiplication
+- **Goal:** Multiply two integers.
+- **Function:** `int mul(int a, int b);`
 
-A function that prints the numbers, from 0 to 9, followed by a new line.
+---
 
-# 5. Numbers constitute the only universal language
+### 🔹 3. The numbers speak for themselves
+- **Goal:** Print the numbers from `0` to `9`, followed by a new line.
+- **Function:** `void print_numbers(void);`
 
-A function that prints 10 times the numbers, from 0 to 14, followed by a new line.
+---
 
-# 6. The shortest distance between two points is a straight line
+### 🔹 4. I believe in numbers and signs
+- **Goal:** Print the numbers from `0` to `9`, followed by a new line.
+- **Function:** `void print_most_numbers(void);`
 
-A function that draws a straight line in the terminal.
+---
 
-# 7. I feel like I am diagonally parked in a parallel universe
+### 🔹 5. Numbers constitute the only universal language
+- **Goal:** Print 10 times the numbers from `0` to `14`, followed by a new line.
+- **Function:** `void more_numbers(void);`
 
-A function that draws a diagonal line on the terminal.
+---
 
-# 8. You are so much sunshine in every square inch
+### 🔹 6. The shortest distance between two points is a straight line
+- **Goal:** Draw a straight line in the terminal.
+- **Function:** `void print_line(int n);`
 
-A function that prints a square, followed by a new line.
+---
 
-# 9. Fizz-Buzz
+### 🔹 7. I feel like I am diagonally parked in a parallel universe
+- **Goal:** Draw a diagonal line on the terminal.
+- **Function:** `void print_diagonal(int n);`
 
-A program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the 
-number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
+---
 
-# 10. Triangles
+### 🔹 8. You are so much sunshine in every square inch
+- **Goal:** Print a square, followed by a new line.
+- **Function:** `void print_square(int size);`
 
-A function that prints a triangle, followed by a new line.
+---
+
+### 🔹 9. Fizz-Buzz
+- **Goal:** Print numbers from `1` to `100`. For multiples of 3 print `"Fizz"`, for multiples of 5 print `"Buzz"`, and for multiples of both print `"FizzBuzz"`.
+- **Program:** `int main(void);`
+
+---
+
+### 🔹 10. Triangles
+- **Goal:** Print a triangle, followed by a new line.
+- **Function:** `void print_triangle(int size);`
+
+---
