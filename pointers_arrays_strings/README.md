@@ -115,7 +115,8 @@ This project explores the core of low-level programming in C:
 
 ```bash
 gcc -Wall -Wextra -pedantic -std=c99 -o main main.c *.c
-./main```
+./main
+```
 
 
 ✅ Skills You Will Gain
