@@ -1,28 +1,85 @@
-# 0. Preprocessor
+# 🚀 C - Functions, Loops & More
 
-a script that runs a C file through the preprocessor and save the result into another file.
+A collection of beginner C programs covering basic functions, conditional statements, loops, character checks, and arithmetic operations.
 
-# 1. Compiler
+---
 
-a script that compiles a C file but does not link.
+## 🔧 Programs & Functions
 
-# 2. Assembler
+### 🔹 0. `_putchar`
+- **Goal:** Print `_putchar`, followed by a newline.
+- **Prototype:** `int main(void);`
 
-a script that generates the assembly code of a C code and save it in an output file.
+---
 
-# 3. Name
+### 🔹 1. Alphabet Game
+- **Goal:** Print the alphabet in lowercase, followed by a newline.
+- **Function:** `void print_alphabet(void);`
 
-a script that compiles a C file and creates an executable named cisfun.
+---
 
-# 4. Hello, puts
+### 🔹 2. 10 x Alphabet
+- **Goal:** Print the alphabet 10 times in lowercase.
+- **Function:** `void print_alphabet_x10(void);`
 
-a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+---
 
-# 5. Hello, printf
+### 🔹 3. `islower`
+- **Goal:** Check for a lowercase character.
+- **Function:** `int _islower(int c);`
 
-a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+---
 
-# 6. Size is not grandeur, and territory does not make a nation
+### 🔹 4. `isalpha`
+- **Goal:** Check for an alphabetic character.
+- **Function:** `int _isalpha(int c);`
 
-a C program that prints the size of various types on the computer it is compiled and run on.
+---
 
+### 🔹 5. Sign of a Number
+- **Goal:** Print the sign of a number.
+- **Function:** `int print_sign(int n);`
+
+---
+
+### 🔹 6. Absolute Value
+- **Goal:** Return the absolute value of an integer.
+- **Function:** `int _abs(int n);`
+
+---
+
+### 🔹 7. Last Digit
+- **Goal:** Print the last digit of a number.
+- **Function:** `int print_last_digit(int n);`
+
+---
+
+### 🔹 8. Jack Bauer Clock
+- **Goal:** Print every minute of the day from `00:00` to `23:59`.
+- **Function:** `void jack_bauer(void);`
+
+---
+
+### 🔹 9. Times Table
+- **Goal:** Print the 9 times table, starting from 0.
+- **Function:** `void times_table(void);`
+
+---
+
+### 🔹 10. `a + b`
+- **Goal:** Add two integers and return the result.
+- **Function:** `int add(int a, int b);`
+
+---
+
+### 🔹 11. To 98
+- **Goal:** Print all natural numbers from `n` to `98`.
+- **Function:** `void print_to_98(int n);`
+
+---
+
+## ⚙️ Compile & Run
+```bash
+gcc -Wall -Wextra -pedantic -std=c99 -o main main.c *.c
+./main
+```
