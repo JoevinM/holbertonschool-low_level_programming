@@ -1,47 +1,99 @@
-# 0. putchar
+# 🚀 C - Functions, Loops & More
 
-A program that prints _putchar, followed by a new line
+A collection of beginner C programs covering basic functions, conditional statements, loops, character checks, and arithmetic operations.
 
-# 1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+---
 
-A function that prints the alphabet, in lowercase, followed by a new line.
+## 🔧 Programs & Functions
 
-# 2. 10 x alphabet
+### 🔹 0. `_putchar`
+- **Goal:** Print `_putchar`, followed by a newline.
+- **Prototype:** `int main(void);`
 
-A function that prints 10 times the alphabet, in lowercase, followed by a new line.
+---
 
-# 3. islower
+### 🔹 1. Alphabet Game
+- **Goal:** Print the alphabet in lowercase, followed by a newline.
+- **Function:** `void print_alphabet(void);`
 
-A function that checks for lowercase character.
+---
 
-# 4. isalpha
+### 🔹 2. 10 x Alphabet
+- **Goal:** Print the alphabet 10 times in lowercase.
+- **Function:** `void print_alphabet_x10(void);`
 
-A function that checks for alphabetic character.
+---
 
-# 5. Sign
+### 🔹 3. `islower`
+- **Goal:** Check for a lowercase character.
+- **Function:** `int _islower(int c);`
 
-A function that prints the sign of a number.
+---
 
-# 6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
+### 🔹 4. `isalpha`
+- **Goal:** Check for an alphabetic character.
+- **Function:** `int _isalpha(int c);`
 
-A function that computes the absolute value of an integer
+---
 
-# 7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
+### 🔹 5. Sign of a Number
+- **Goal:** Print the sign of a number.
+- **Function:** `int print_sign(int n);`
 
-A function that prints the last digit of a number.
+---
 
-# 8. I'm federal agent Jack Bauer, and today is the longest day of my life
+### 🔹 6. Absolute Value
+- **Goal:** Return the absolute value of an integer.
+- **Function:** `int _abs(int n);`
 
-A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+---
 
-# 9. Learn your times table
+### 🔹 7. Last Digit
+- **Goal:** Print the last digit of a number.
+- **Function:** `int print_last_digit(int n);`
 
-A function that prints the 9 times table, starting with 0.
+---
 
-# 10. a + b
+### 🔹 8. Jack Bauer Clock
+- **Goal:** Print every minute of the day from `00:00` to `23:59`.
+- **Function:** `void jack_bauer(void);`
 
-A unction that adds two integers and returns the result.
+---
 
-# 11. 98 Battery Street, the OG
+### 🔹 9. Times Table
+- **Goal:** Print the 9 times table, starting from 0.
+- **Function:** `void times_table(void);`
 
-A function that prints all natural numbers from n to 98, followed by a new line.
+---
+
+### 🔹 10. `a + b`
+- **Goal:** Add two integers and return the result.
+- **Function:** `int add(int a, int b);`
+
+---
+
+### 🔹 11. To 98
+- **Goal:** Print all natural numbers from `n` to `98`.
+- **Function:** `void print_to_98(int n);`
+
+---
+
+## ⚙️ Compile & Run
+
+```bash
+gcc -Wall -Wextra -pedantic -std=c99 -o main main.c *.c
+./main
+```
+
+✅ Concepts Covered
+Function declaration & definition
+
+Basic I/O with _putchar()
+
+for & while loops
+
+if/else conditional logic
+
+Character classification (_islower, _isalpha)
+
+Arithmetic operations and math logic
