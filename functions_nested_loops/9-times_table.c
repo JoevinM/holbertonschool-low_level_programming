@@ -23,8 +23,13 @@ void times_table(void)
 			}
 			else
 			{
+				if (j == 0)
+					_putchar('0' + multiply);
+				else
+				{
 				_putchar(' ');
 				_putchar('0' + multiply);
+				}
 			}
 			if (j != 9)
 			{
