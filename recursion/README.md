@@ -1,38 +1,42 @@
-# Recursion on Arrays - C Project
+# C Recursion Project
 
-Welcome to this project dedicated to learning and implementing **recursion** in **C language**, applied to **arrays**. This project offers several classic recursive functions, ideal for understanding recursive logic through concrete examples.
+## Description
 
-## Objective
+This project is part of the Holberton School curriculum and focuses on understanding and implementing recursion in C.  
+You will write several recursive functions to manipulate strings and integers without using loops, global or static variables, or standard library functions (except `_putchar`).
 
-Explore how to use recursion to:
-- Traverse an array
-- Reverse an array
-- Calculate statistics (sum, max, min, etc.)
-- Search for an element
-- Solve classic problems (sorting, searching, etc.)
+---
 
+## Learning Objectives
+
+By the end of this project, you should be able to:
+
+- Understand what recursion is and how it works.
+- Implement recursive functions in C.
+- Know when recursion is appropriate or not.
+- Write recursive functions that comply with strict coding standards (Betty style).
+- Avoid using loops, global/static variables, and standard library functions other than `_putchar`.
+
+---
 ## Why recursion?
 
 > "Recursion is when a function calls itself to solve a subproblem of the original problem."
 
 It is powerful for certain types of problems, such as tree processing, sorting/search algorithms, or recursive manipulation of data structures.
 
----
-
-## Project structure
-
 
 ---
 
-## Implemented functions
+## Tasks and Function Prototypes
 
-| Function                                | Description |
-|----------------------------------------|-------------|
-| `void print_array(int *arr, int size)` | Recursively prints the elements of the array |
-| `void reverse_array(int *arr, int start, int end)` | Reverses the array in place |
-| `int sum_array(int *arr, int size)`    | Recursively calculates the sum of elements |
-| `int max_array(int *arr, int size)`    | Returns the maximum element in the array |
-| `int contains(int *arr, int size, int val)` | Checks if an element exists |
-| `void recursive_bubble_sort(int *arr, int n)` | Recursively sorts the array with bubble sort |
+| Task | Description                                                | Prototype                              | Notes                                                                                      |
+|-------|------------------------------------------------------------|--------------------------------------|--------------------------------------------------------------------------------------------|
+| 0     | Print a string followed by a new line                       | `void _puts_recursion(char *s);`     | Similar to `puts`                                                                          |
+| 1     | Print a string in reverse                                   | `void _print_rev_recursion(char *s);` |                                                                                          |
+| 2     | Return the length of a string                               | `int _strlen_recursion(char *s);`    | Similar to `strlen`                                                                        |
+| 3     | Return the factorial of a number                            | `int factorial(int n);`               | Return -1 if n < 0. Factorial(0) = 1                                                     |
+| 4     | Return x raised to the power y                              | `int _pow_recursion(int x, int y);`  | Return -1 if y < 0                                                                        |
+| 5     | Return the natural square root of a number                  | `int _sqrt_recursion(int n);`        | Return -1 if no natural square root exists                                                |
+| 6     | Return 1 if the number is prime, otherwise 0               | `int is_prime_number(int n);`        |                                                                                            |
 
 ---
