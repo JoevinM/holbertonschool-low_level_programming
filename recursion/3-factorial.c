@@ -6,7 +6,7 @@
  *
  * @n: The number to compute the factorial of.
  *
- * Return: The factorial of n.
+ * Return: The factorial of n
  *         If n is lower than 0, returns -1 to indicate an error.
  *         Factorial of 0 is 1.
  *
