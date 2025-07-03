@@ -10,7 +10,7 @@
  *         If n is lower than 0, returns -1 to indicate an error.
  *         Factorial of 0 is 1.
  *
-*/
+ */
 
 int factorial(int n)
 {
@@ -21,9 +21,13 @@ int factorial(int n)
 	else if (n == 0)
 	{
 		return (1);
+<<<<<<< HEAD
 	}
 	else
 	{
 		return (n * factorial(n - 1));
 	}
+=======
+	return (n * factorial(n - 1));
+>>>>>>> c8b60c7 (edit 3-factorial.c)
 }
