@@ -1,7 +1,8 @@
-📦 Dynamic Memory Allocation in C (malloc & free)
+### 📦 Dynamic Memory Allocation in C (malloc & free)
+
 This repository contains C programs demonstrating dynamic memory allocation using malloc and memory deallocation with free. Each task focuses on common use-cases such as duplicating strings, creating arrays, and handling 2D grids.
 
-📋 Tasks Overview
+## 📋 Tasks Overview
 
 | Task # | Filename           | Function Prototype                               | Description                                                                                                           |
 | ------ | ------------------ | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
