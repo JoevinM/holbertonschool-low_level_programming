@@ -35,7 +35,6 @@ char *_strdup(char *str)
 
 	if (cpy == NULL)
 		return (NULL);
-		
 	while (str[i] != '\0')
 	{
 		cpy[j] = str[i];
