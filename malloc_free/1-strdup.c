@@ -33,6 +33,9 @@ char *_strdup(char *str)
 	cpy = malloc(sizeof(char) * (i + 1));
 	i = 0;
 
+	if (cpy == NULL)
+		return (NULL);
+		
 	while (str[i] != '\0')
 	{
 		cpy[j] = str[i];
