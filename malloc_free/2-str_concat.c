@@ -38,7 +38,6 @@ char *str_concat(char *s1, char *s2)
 		j++;
 
 	cpy = malloc(sizeof(char) * (i + j + 1));
-	
 		if (cpy == NULL)
 		return (NULL);
 
