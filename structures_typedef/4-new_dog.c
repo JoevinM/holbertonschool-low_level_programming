@@ -1,7 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
-
-
+#include <stdio.h>
 /**
  * *_strcpy  - Copies the string pointed to by src,
  * including the terminating null byt (\0),
