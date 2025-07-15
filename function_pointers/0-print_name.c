@@ -5,6 +5,7 @@
  * print_name - Calls a function to print a name.
  * @name: The name to be printed.
  * @f: A pointer to the function that prints the name.
+ * Return: Nothing.
  *
  * Description: This function checks if the provided name and function
  * pointer are not NULL.
