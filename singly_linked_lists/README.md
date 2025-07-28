@@ -1,11 +1,11 @@
 # 📚 Singly Linked Lists in C
 
 ## 📌 Table of Contents
-- [🧠 Learning Objectives](#-learning-objectives)
-- [⚙️ Requirements](#️-requirements)
-- [🧱 Data Structure](#-data-structure)
-- [📂 File Overview](#-file-overview)
-- [🔧 Function Prototypes](#-function-prototypes)
+- [Learning Objectives](#-learning-objectives)
+- [Requirements](#️-requirements)
+- [Data Structure](#-data-structure)
+- [File Overview](#-file-overview)
+- [Function Prototypes](#-function-prototypes)
 
 ---
 
