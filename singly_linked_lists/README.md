@@ -1,11 +1,11 @@
 # 📚 Singly Linked Lists in C
 
 ## 📌 Table of Contents
-- [Learning Objectives](learning-objectives)
-- [Requirements](requirements)
-- [Data Structure](data-structure)
-- [File Overview](file-overview)
-- [Function Prototypes](function-prototypes)
+- [Learning Objectives](#learning-objectives)
+- [Requirements](#requirements)
+- [Data Structure](#data-structure)
+- [File Overview](#file-overview)
+- [Function Prototypes](#function-prototypes)
 
 ---
 
@@ -22,7 +22,8 @@ By the end of this project, you should be able to explain the following concepts
 
 - Allowed editors: `vi`, `vim`, `emacs`
 - Compilation will be done on **Ubuntu 20.04 LTS** with `gcc`, using:
-  ```bash
+  
+```bash
   -Wall -Werror -Wextra -pedantic -std=gnu89
 ```
 
