@@ -1,6 +1,6 @@
-# 📚 Singly Linked Lists in C
+# Singly Linked Lists in C
 
-## 📌 Table of Contents
+## Table of Contents
 - [Learning Objectives](#learning-objectives)
 - [Requirements](#requirements)
 - [Data Structure](#data-structure)
