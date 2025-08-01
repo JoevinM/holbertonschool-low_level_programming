@@ -1,9 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include "main.h"
 #include <fcntl.h>
-#include <stddef.h>
 #include <unistd.h>
-
+#include <stdlib.h>
+#include <stdio.h>
 
 /** Prototypes */
 
